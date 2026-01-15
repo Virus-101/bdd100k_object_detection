@@ -1,0 +1,53 @@
+# BDD100K Dataset Configuration for YOLOv8
+# ==========================================
+# 
+# IMPORTANT: Update the 'path' below to match your system!
+# After running convert_bdd100k_to_yolo.py, set this to the output directory.
+#
+# Example:
+#   Windows: C:/Users/YourName/datasets/bdd100k_yolo
+#   Linux:   /home/yourname/datasets/bdd100k_yolo
+
+# Dataset root directory (UPDATE THIS!)
+path: /path/to/your/bdd100k_yolo
+
+# Train/val directories (relative to path)
+train: images/train
+val: images/val
+
+# Test directory (optional)
+# test: images/test
+
+# Number of classes
+nc: 10
+
+# Class names (must match indices in conversion script)
+names:
+  0: car
+  1: truck
+  2: bus
+  3: person
+  4: bike
+  5: motor
+  6: traffic_light
+  7: traffic_sign
+  8: train
+  9: rider
+
+# Class colors for visualization (optional, RGB format)
+# colors:
+#   0: [255, 0, 0]      # car - red
+#   1: [0, 255, 0]      # truck - green
+#   2: [0, 0, 255]      # bus - blue
+#   3: [255, 255, 0]    # person - yellow
+#   4: [255, 0, 255]    # bike - magenta
+#   5: [0, 255, 255]    # motor - cyan
+#   6: [255, 128, 0]    # traffic_light - orange
+#   7: [128, 0, 255]    # traffic_sign - purple
+#   8: [128, 128, 128]  # train - gray
+#   9: [255, 192, 203]  # rider - pink
+
+# Dataset statistics (for reference)
+# Images: 70,000 train, 10,000 val
+# Resolution: 1280 x 720
+# Total annotations: ~1.8M bounding boxes
