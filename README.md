@@ -2,7 +2,7 @@
 
 Complete training pipeline for object detection on the BDD100K dataset using Ultralytics YOLOv8, optimized for RTX 4050 (6GB VRAM).
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 bdd100k_object_detection/
@@ -17,7 +17,7 @@ bdd100k_object_detection/
 └── README.md                  # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Step 1: Install Dependencies
 
@@ -128,7 +128,7 @@ python inference.py --source 0
 
 ---
 
-## 📊 Dataset Information
+## Dataset Information
 
 | Property | Value |
 |----------|-------|
@@ -156,7 +156,7 @@ python inference.py --source 0
 
 ---
 
-## ⚙️ Training Options
+## Training Options
 
 ### Model Selection
 
@@ -201,7 +201,7 @@ python train.py --resume
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Out of Memory (OOM) Errors
 
@@ -246,7 +246,7 @@ Make sure to:
 
 ---
 
-## 📈 Expected Results
+## Expected Results
 
 After 100 epochs on BDD100K with YOLOv8s:
 
@@ -264,7 +264,7 @@ Training time on RTX 4050:
 
 ---
 
-## 📤 Export for Deployment
+## Export for Deployment
 
 After training, export to different formats:
 
@@ -282,7 +282,7 @@ model.export(format='openvino')    # OpenVINO
 
 ---
 
-## 🔗 Resources
+## Resources
 
 - [BDD100K Dataset](https://bdd-data.berkeley.edu/)
 - [Ultralytics YOLOv8 Docs](https://docs.ultralytics.com/)
@@ -290,6 +290,6 @@ model.export(format='openvino')    # OpenVINO
 
 ---
 
-## 📝 License
+## License
 
 This project is for educational purposes. BDD100K dataset has its own license - check the official website for terms.
